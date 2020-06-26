@@ -1,10 +1,6 @@
 import time
 import json
 import dns.resolver
-from datetime import date
-import concurrent.futures
-from tqdm import tqdm
-
 
 def go(url):
     result = []
