@@ -22,9 +22,7 @@ def go(url):
 
 if __name__ == "__main__":
     start_time = time.time()
-
     urls = ['youtube.com', 'google.com']
-
     try:
         for url in urls:
             go(url)
